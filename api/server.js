@@ -20,5 +20,3 @@ server.get("/", (req, res)=> {
     res.json("Hello fromSprint Challenge 3!")
 })
 module.exports = server;
-
-//should middleware be imported into router file instead? 
